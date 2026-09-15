@@ -1,9 +1,25 @@
+## 🙏 Design Inspiration
+
+The visual direction and some interaction ideas for this portfolio were inspired by the
+portfolio of [Tajmirul Islam](https://www.tajmirul.site/).
+
+His approach to interactive portfolio design, project presentation, and frontend-focused
+visual storytelling was an important source of inspiration while developing this project.
+
+This portfolio is my own implementation, with its own visual system, content,
+projects, animations, and technical architecture.
+
+Special thanks to Tajmirul for the inspiration.
+
+> Original inspiration: [tajmirul.site](https://www.tajmirul.site/)
+> 
 # Laith Watfa — Frontend Developer Portfolio
 
 A modern, interactive personal portfolio built to showcase my work, technical skills, and approach to frontend development.
 
 The portfolio focuses on **clean UI, smooth interactions, responsive design, and thoughtful frontend architecture**, with an emphasis on creating polished digital experiences rather than simply displaying projects.
 
+ber
 ## 🌐 Live Website
 
 **https://laith-watfa-portfolio.vercel.app/**
