@@ -2,7 +2,7 @@
 
 @theme {
   /* Map 'font-ibm-plex-mono' to the Next.js CSS variable */
-  --font-ibm-plex-mono: var(--font-ibm-mono);
+  --font-ibm-plex-mono: var(--font-ibm-plex-mono);
 }
 :root {
   --azure-blue: #0980ff;
@@ -10,12 +10,12 @@
   --black: #212121;
   --light-blue: #b8dbd9;
   --ghost-white: #f4f4f9;
-  --font-ibm-mono: var(--font-ibm-mono);
+  --font-ibm-plex-mono: var(--font-ibm-plex-mono);
 }
 
 /* 💻 Standard vanilla CSS fallback replacement for Tailwind utility classes */
 .font-ibm-plex-mono {
-  font-family: var(--font-ibm-mono) ;
+  font-family: var(--font-ibm-plex-mono) ;
 }
 
 

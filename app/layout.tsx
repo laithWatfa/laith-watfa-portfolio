@@ -23,7 +23,8 @@ export const metadata: Metadata = {
 
 
 const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-ibm-mono",
+  variable: "--font-ibm-plex-mono",
+  subsets: ["latin"],
   weight : ["100","200","300","400","500","600","700"]
   }
 )
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${ibmPlexMono.variable} font-mono h-full antialiased`}
+      className={`${ibmPlexMono.variable}  h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

@@ -51,7 +51,7 @@ export default function ProjectItem({
                     <span
                         className={`
                 shrink-0
-                font-mono
+                
                 text-2xl
                 font-bold
                 leading-none
@@ -68,8 +68,10 @@ export default function ProjectItem({
                         {/* Title */}
                         <h3
                             className={`
+                flex
+                flex-wrap
                 group
-                font-mono
+                
                 text-xl
                 font-bold
                 leading-tight
@@ -110,7 +112,7 @@ export default function ProjectItem({
                         <p
                             className="
                             mt-2
-                            font-mono
+                            
                             text-xs
                             text-(--light-blue)
                             md:text-sm
@@ -128,7 +130,7 @@ export default function ProjectItem({
                               items-center
                               gap-x-3
                               gap-y-2
-                              font-mono
+                              
                               text-xs
                               text-(--grey)
                               md:text-sm
@@ -181,11 +183,11 @@ export default function ProjectItem({
                                 project={project}
                                 variant="selected"
                             />
-                            <h4 className="font-mono text-sm font-bold text-(--ghost-white)">
+                            <h4 className=" text-sm font-bold text-(--ghost-white)">
                                 What I Built
                             </h4>
 
-                            <ul className="mt-3 space-y-2">
+                            <ul className="mt-3 space-y-2 font-mono">
                                 {project.description.map((item) => (
                                     <motion.li
                                         key={item}
@@ -198,7 +200,7 @@ export default function ProjectItem({
                                         flex
                                         items-start
                                         gap-2
-                                        font-mono
+                                        
                                         text-xs
                                         leading-relaxed
                                         text-(--grey)
@@ -221,7 +223,7 @@ export default function ProjectItem({
                                   inline-flex
                                   items-center
                                   gap-2
-                                  font-mono
+                                  
                                   text-sm
                                   font-bold
                                   text-(--azure-blue)

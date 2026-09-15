@@ -33,7 +33,7 @@ export default function ContactLinks() {
             href="mailto:laith.2723@gmail.com"
             className="
             hidden
-            font-mono
+            
             text-sm
             text-(--ghost-white)
             transition-colors

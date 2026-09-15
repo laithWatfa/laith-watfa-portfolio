@@ -20,21 +20,21 @@ export default function CaseStudyInfo({ project }: Props) {
         >
             {/* Technologies */}
             <InfoBlock title="TECHNOLOGIES">
-                <p className="font-mono text-sm font-bold leading-7 text-(--ghost-white) md:text-base">
+                <p className=" text-sm font-bold leading-7 text-(--ghost-white) md:text-base font-mono">
                     {project.technologies.join(", ")}.
                 </p>
             </InfoBlock>
 
             {/* Description */}
             <InfoBlock title="DESCRIPTION">
-                <p className="font-mono text-sm font-bold leading-7 text-(--ghost-white) md:text-base">
+                <p className=" text-sm font-bold leading-7 text-(--ghost-white) md:text-base font-mono">
                     {project.description}
                 </p>
             </InfoBlock>
 
             {/* Role */}
             <InfoBlock title="MY ROLE">
-                <ul className="space-y-2">
+                <ul className="space-y-2 font-mono">
                     {project.role.map((item, index) => (
                         <motion.li
                             key={item}
@@ -48,7 +48,7 @@ export default function CaseStudyInfo({ project }: Props) {
                                 flex
                                 items-start
                                 gap-2
-                                font-mono
+                                
                                 text-sm
                                 font-bold
                                 leading-6

@@ -58,7 +58,6 @@ export default function Projects() {
 
             <h2
             className="
-                font-mono
                 text-3xl
                 font-bold
                 text-(--azure-blue)

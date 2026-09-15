@@ -42,16 +42,16 @@ export default function Hero() {
         >
             <div className="max-w-3xl">
             <h1 className="font-black uppercase leading-[0.85]  -tracking-widest ">
-                <span className="block text-5xl sm:text-[clamp(4rem,9vw,9rem)] text-(--azure-blue)">
+                <span className="block text-6xl sm:text-[clamp(4rem,9vw,9rem)] text-(--azure-blue)">
                 FrontEnd
                 </span>
 
-                <span className="ml-8 block text-5xl sm:text-[clamp(4rem,9vw,9rem)] text-(--light-blue) md:ml-12">
+                <span className="sm:ml-8 block text-6xl sm:text-[clamp(4rem,9vw,9rem)] text-(--light-blue) md:ml-12">
                 Developer
                 </span>
             </h1>
 
-            <p className="mt-8 max-w-xl  text-sm leading-relaxed text-(--grey) md:text-base">
+            <p className="mt-8 max-w-xl  text-sm leading-relaxed text-(--grey) md:text-base font-mono">
                 Hi! I&apos;m <span className="text-(--ghost-white)">Laith</span>. A Frontend Developer crafting polished,
                 interactive web applications with Next.js, React &amp; TypeScript.
             </p>
@@ -72,7 +72,7 @@ export default function Hero() {
                 duration: 0.6,
                 delay: 1.05,
                 }}
-                className="mt-8 flex items-center gap-3 font-mono text-sm text-(--light-blue) md:text-base"
+                className="mt-8 flex items-center gap-3  text-sm text-(--light-blue) md:text-base"
             >
                 <span className="relative flex h-3 w-3">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-(--light-blue) opacity-40" />

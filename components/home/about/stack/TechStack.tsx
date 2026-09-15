@@ -166,7 +166,7 @@ export default function TechStack() {
             onMouseLeave={handleMouseLeave}
             onClick={() => setActiveTech(null)}
             className="relative
-            border-l-2 pl-8 border-(--light-blue)"
+            border-l-2 pl-8 border-(--light-blue) font-mono"
             style={{
                 x: springX,
                 y: springY,

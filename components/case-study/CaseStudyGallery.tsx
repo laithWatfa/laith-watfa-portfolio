@@ -349,7 +349,7 @@ export default function CaseStudyGallery({ images }: Props) {
             bottom-2
             left-1/2
             -translate-x-1/2
-            font-mono
+            
             text-sm
             text-grey
           "
@@ -467,7 +467,7 @@ export default function CaseStudyGallery({ images }: Props) {
 
                 {/* Mobile counter */}
 
-                <div className="mt-4 text-center font-mono text-sm text-grey">
+                <div className="mt-4 text-center  text-sm text-grey">
                     <span className="text-light-blue">
                         {String(activeIndex + 1).padStart(2, "0")}
                     </span>

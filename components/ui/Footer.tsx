@@ -30,7 +30,7 @@ const Footer = () => {
                         setCopied(true);
                         setTimeout(() => setCopied(false), 2000);
                     }}
-                    className="group flex gap-2 items-center font-bold text-2xl md:text-3xl xl:text-4xl hover:text-(--azure-blue) duration-300"
+                    className="group flex gap-2 items-center font-bold text-2xl md:text-3xl xl:text-4xl hover:text-(--azure-blue) duration-300 "
                 >
                     <FaArrowRight className="w-0 h-0 group-hover:w-6 group-hover:h-6 duration-300" />
                     laith.2723@gmail.com
@@ -67,7 +67,7 @@ const Footer = () => {
                 </AnimatePresence>
             </div>
 
-            <span className="text-(--grey) font-bold">
+            <span className="text-(--grey) font-bold font-mono">
                 Designed & Built By Laith Watfa{" "}
             </span>
         </motion.footer>

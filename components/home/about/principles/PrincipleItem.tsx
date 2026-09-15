@@ -90,7 +90,7 @@ export default function PrincipleItem({ principle, index, isInView }: PrincipleP
                         duration: 0.2,
                     }}
                     className="
-            font-mono
+            
             text-2xl
             font-bold
             text-(--azure-blue)
@@ -107,7 +107,7 @@ export default function PrincipleItem({ principle, index, isInView }: PrincipleP
                         duration: 0.2,
                     }}
                     className="
-            font-mono
+            
             text-lg
             font-bold
             tracking-tight

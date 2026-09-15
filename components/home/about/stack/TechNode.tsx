@@ -83,7 +83,7 @@ export default function TechNode({
                     transition={{
                         duration: 0.2,
                     }}
-                    className="font-mono text-xl"
+                    className=" text-xl"
                 >
                     {tech.name}
                 </motion.span>
@@ -122,11 +122,11 @@ export default function TechNode({
                         backdrop-blur-md
                     "
                 >
-                    <div className="mb-1 font-mono text-xs uppercase tracking-wider text-(--azure-blue)">
+                    <div className="mb-1  text-xs uppercase tracking-wider text-(--azure-blue)">
                         {tech.name}
                     </div>
 
-                    <p className="font-mono text-xs leading-relaxed text-(--light-blue)">
+                    <p className=" text-xs leading-relaxed text-(--light-blue)">
                         {tech.description}
                     </p>
                 </motion.div>
